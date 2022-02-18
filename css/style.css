@@ -1,0 +1,33 @@
+.bg-darker {
+  background-color: #3d3b30;
+}
+.navbar-nav {
+  font-family: 'Poppins', sans-serif;
+  font-weight: bold;
+  font-size: 24;
+  color: #e9edde;
+}
+
+.navbar .navbar-nav .nav-link {
+  padding-left: 4vw;
+  padding-left: 4vw;
+}
+
+.navbar {
+  padding-left: 3vw;
+  padding-right: 3vw;
+}
+
+.home {
+  font-family: 'Poppins', sans-serif;
+  color: #e9edde;
+}
+
+.home h1 {
+  font-size: 36;
+}
+
+.home p {
+  font-size: 18;
+  text-align: justify;
+}
