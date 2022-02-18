@@ -24,6 +24,7 @@
 }
 
 .home h4 {
+  padding-top: 1.5vw;
   font-weight: bold;
   margin-bottom: 1rem;
 }
@@ -34,5 +35,10 @@
 }
 
 .mini-contact {
+  color: #e9edde;
+}
+
+.cv-link {
+  font-size: 1.15em;
   color: #e9edde;
 }
