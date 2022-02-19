@@ -49,11 +49,14 @@
 
 .services {
   font-family: 'Poppins', sans-serif;
+  margin-top: 10px;
 }
 
 .services h5 {
   font-weight: bold;
   color: #e9edde;
+  margin-top: 10px;
+  margin-bottom: 20px;
 }
 
 .services-icon {
@@ -72,4 +75,27 @@
   top: -22.5px;
   -ms-transform: translateY(-50%);
   transform: translateY(-50%);
+}
+
+.portfolio {
+  font-family: 'Poppins', sans-serif;
+  color: #e9edde;
+  margin-top: 20px;
+}
+
+.portfolio h5 {
+  font-weight: bold;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.portfolio .card {
+  border-radius: 25px;
+  color: #3d3b30;
+  font-family: 'Poppins', sans-serif;
+  margin-right: 40px;
+}
+
+.portfolio .card img {
+  object-fit: cover;
 }
