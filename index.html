@@ -26,7 +26,7 @@
         </button>
         <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
           <div class="navbar-nav ms-auto">
-            <a class="nav-link active" aria-current="page" href="#">Home</a>
+            <a class="nav-link" href="#Home">Home</a>
             <a class="nav-link" href="#">Services</a>
             <a class="nav-link" href="#">Portfolio</a>
             <a class="nav-link" href="#">Contact</a>
@@ -37,9 +37,9 @@
     <!-- end of Navbar -->
 
     <!-- Section Home -->
-    <section class="container home">
-      <div class="row justify-content-md-center">
-        <div class="col-lg-5">
+    <section class="container home" id="Home">
+      <div class="row">
+        <div class="col-lg-6">
           <h4>Hello, I’m Wahid</h4>
           <p class="lead">
             According to the Arabic Language 'Wahid' means First or the One. Like my name, I am 'one' of the people with coding skills :). Experienced with Mobile Apps Development, Data Science projects, and Website Development. Hopefully,
@@ -48,22 +48,53 @@
           <div class="mini-contact">
             <p>Social media</p>
             <div>
-              <a href="https://www.linkedin.com/in/wahidrn/"><box-icon type="logo" name="linkedin" color="#e9edde" animation="tada-hover"></box-icon></a>
-              <a href="https://www.instagram.com/wahidrn/"><box-icon type="logo" name="instagram" color="#e9edde" animation="tada-hover"></box-icon></a>
-              <a href="https://www.facebook.com/banghid/"><box-icon type="logo" name="facebook" color="#e9edde" animation="tada-hover"></box-icon></a>
-              <a href="https://www.github.com/banghid/"><box-icon type="logo" name="github" color="#e9edde" animation="tada-hover"></box-icon></a>
+              <a href="https://www.linkedin.com/in/wahidrn/"><box-icon type="logo" size="md" name="linkedin" color="#e9edde" animation="tada-hover"></box-icon></a>
+              <a href="https://www.instagram.com/wahidrn/"><box-icon type="logo" size="md" name="instagram" color="#e9edde" animation="tada-hover"></box-icon></a>
+              <a href="https://www.facebook.com/banghid/"><box-icon type="logo" size="md" name="facebook" color="#e9edde" animation="tada-hover"></box-icon></a>
+              <a href="https://www.github.com/banghid/"><box-icon type="logo" size="md" name="github" color="#e9edde" animation="tada-hover"></box-icon></a>
             </div>
 
             <a class="cv-link" href="resume/CV_wahidrn.pdf"><u>Download My CV here</u></a>
           </div>
         </div>
-        <div class="col-lg-1"></div>
-        <div class="col-lg-4">
+        <div class="col-lg-5 offset-lg-1">
           <img src="image/profile_pic_compressed.png" alt="wahidrn" />
         </div>
       </div>
     </section>
     <!-- end of Section Home -->
+
+    <!-- Section Sevices -->
+    <section class="container services">
+      <h5>What i can do for you</h5>
+      <div class="row services-icon shadow">
+        <div class="col-lg-3">
+          <span>
+            <box-icon type="solid" size="60px" name="mobile" color="#ffffff" animation="flashing-hover"></box-icon>
+            <p>Mobile Dev</p>
+          </span>
+        </div>
+        <div class="col-lg-3">
+          <span>
+            <box-icon size="60px" name="world" color="#ffffff" animation="flashing-hover"></box-icon>
+            <p>Website Dev</p>
+          </span>
+        </div>
+        <div class="col-lg-3">
+          <span>
+            <box-icon type="solid" size="60px" name="data" color="#ffffff" animation="flashing-hover"></box-icon>
+            <p>Data Science</p>
+          </span>
+        </div>
+        <div class="col-lg-3">
+          <span>
+            <box-icon size="60px" name="code-alt" color="#ffffff" animation="flashing-hover"></box-icon>
+            <p>Fullstrack</p>
+          </span>
+        </div>
+      </div>
+    </section>
+    <!-- end of Section Services -->
 
     <!-- Scripts -->
     <script src="https://unpkg.com/boxicons@2.1.1/dist/boxicons.js"></script>

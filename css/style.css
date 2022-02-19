@@ -5,12 +5,12 @@
   font-family: 'Poppins', sans-serif;
   font-weight: bold;
   font-size: 1em;
-  color: #e9edde;
 }
 
 .navbar .navbar-nav .nav-link {
   padding-left: 4vw;
   padding-left: 4vw;
+  color: #e9edde;
 }
 
 .navbar {
@@ -29,6 +29,10 @@
   margin-bottom: 1rem;
 }
 
+.home .row {
+  padding-left: 0;
+}
+
 .lead {
   font-size: 1.15em;
   text-align: justify;
@@ -41,4 +45,31 @@
 .cv-link {
   font-size: 1.15em;
   color: #e9edde;
+}
+
+.services {
+  font-family: 'Poppins', sans-serif;
+}
+
+.services h5 {
+  font-weight: bold;
+  color: #e9edde;
+}
+
+.services-icon {
+  background: #e7e247;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  border-radius: 25px;
+  font-weight: bold;
+  font-family: 'Poppins', sans-serif;
+  text-align: center;
+}
+
+.services-icon span p {
+  display: inline;
+  position: relative;
+  top: -22.5px;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
 }
