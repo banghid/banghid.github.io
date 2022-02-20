@@ -100,7 +100,7 @@
 }
 
 .portfolio .card:hover {
-  background-color: #5c80bc;
+  background-color: #4d5061;
   color: #e9edde;
 }
 
@@ -113,7 +113,7 @@
   object-fit: cover;
 }
 
-#contact {
+#Contact {
   background-color: #5c80bc;
   border-radius: 25px;
   margin-top: 20px;
@@ -121,12 +121,12 @@
   color: #e9edde;
 }
 
-#contact h5 {
+#Contact h5 {
   font-family: 'Poppins', sans-serif;
   font-weight: bold;
 }
 
-#contact p {
+#Contact p {
   font-weight: bold;
   font-size: 18px;
 }
