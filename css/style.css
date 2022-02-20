@@ -100,3 +100,33 @@
 .portfolio .card img {
   object-fit: cover;
 }
+
+#contact {
+  background-color: #5c80bc;
+  border-radius: 25px;
+  margin-top: 20px;
+  padding: 25px;
+  color: #e9edde;
+}
+
+#contact h5 {
+  font-family: 'Poppins', sans-serif;
+  font-weight: bold;
+}
+
+#contact p {
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.message-form {
+  background-color: #e9edde;
+  height: 150px;
+  border-radius: 25px;
+}
+
+.footer {
+  margin: 25px;
+  color: #e9edde;
+  font-family: 'Poppins', sans-serif;
+}
