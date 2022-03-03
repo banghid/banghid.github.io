@@ -73,7 +73,7 @@
 }
 
 .services .card img {
-  /* height: 70%; */
+  width: 100%;
   object-fit: cover;
   /* background-color: #3d3b30; */
 }
@@ -92,14 +92,6 @@
   font-weight: bold;
   font-family: 'Poppins', sans-serif;
   text-align: center;
-}
-
-.services-icon span p {
-  display: inline;
-  position: relative;
-  top: -22.5px;
-  -ms-transform: translateY(-50%);
-  transform: translateY(-50%);
 }
 
 .skills {
@@ -185,6 +177,7 @@
   background-color: #e9edde;
   height: 150px;
   border-radius: 25px;
+  cursor: pointer;
 }
 
 .footer {
