@@ -1,3 +1,7 @@
+html {
+  scroll-behavior: smooth;
+}
+
 .bg-darker {
   background-color: #ffff;
 }
@@ -118,6 +122,11 @@
   color: #5c80bc;
   display: inline-block;
   margin: 4px;
+}
+
+.skill-tag:hover {
+  background-color: #5c80bc;
+  color: #ffff;
 }
 
 .portfolio {
